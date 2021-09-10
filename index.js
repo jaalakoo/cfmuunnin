@@ -4,7 +4,8 @@ const fahrenheitTuloste =  document.guerySelector('#celsius')
 const muunnaButton = document.guerySelector('button');
 
 function muunna(){
-    alert('toimii')
+    let syote = fahrenheitSyote.value;
+    fahrenheitTuloste.textContent = syote;
 }
 
 muunnaButton.addEventListener('click', muunna)
